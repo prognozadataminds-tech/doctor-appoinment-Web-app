@@ -13,19 +13,19 @@ const About = () => {
   const renderDoctorInfo = () => (
     <div className="w-full md:w-1/2 relative border-l-2 border-[#00CC99] pl-10">
       {/* Header */}
-      <div className="mb-8 relative">
+      <div className="mb-8 blur-[3px] relative">
         <div className={dotStyle}></div>
-        <h1 className="text-3xl font-bold text-gray-800">Dr. Wayne R. Kotzker</h1>
-        <p className="text-gray-500 text-lg">MD NEPHROLOGIST</p>
+        <h1 className="text-3xl font-bold blur-[3px] text-gray-800">Dr. Wayne R. Kotzker</h1>
+        <p className="text-gray-500 blur-[3px] text-lg">MD NEPHROLOGIST</p>
       </div>
 
       {/* Biography */}
       <div className="mb-10 relative">
         <div className={dotStyle}></div>
         <h2 className="text-2xl font-semibold mb-2">Biography</h2>
-        <p className="text-gray-600 leading-relaxed">
+        <p className="text-gray-600 blur-[3px] leading-relaxed">
           Physician Partner,Clinical Lead for Value Based Care Principle  Investigator (Panoramic Science)  </p>
-        <p className="text-gray-600 leading-relaxed">
+        <p className="text-gray-600 blur-[3px] leading-relaxed">
           Florida Kidney Physicians </p>
       </div>
 
@@ -33,7 +33,7 @@ const About = () => {
       <div className="mb-10 relative">
         <div className={dotStyle}></div>
         <h2 className="text-2xl font-semibold mb-4">Education</h2>
-        <div className="space-y-6">
+        <div className="space-y-6 blur-[3px]">
           <div>
             <h3 className="text-lg font-semibold">Brandeis University, Waltham, MA </h3>
             <p className="text-gray-600">1986-1990</p>
@@ -60,9 +60,9 @@ const About = () => {
       <div className="mb-10 relative">
         <div className={dotStyle}></div>
         <h2 className="text-2xl font-semibold mb-2">Medical License</h2>
-        <p className="text-gray-600 leading-relaxed">
+        <p className="text-gray-600 blur-[3px]leading-relaxed">
           Medical License, Florida:ME88119 - 2003 - Present  </p>
-        <p className="text-gray-600 leading-relaxed">
+        <p className="text-gray-600 blur-[3px] leading-relaxed">
           DEA:BK4938645 - 1995 - Present</p>
       </div>
 
@@ -76,7 +76,7 @@ const About = () => {
       <div className="mb-10 relative">
         <div className={dotStyle}></div>
         <h2 className="text-2xl font-semibold mb-4">Certifications</h2>
-        <div className="space-y-6">
+        <div className="space-y-6 blur-[3px]">
           <div>
             <h3 className="text-lg font-semibold">Good Clinical Practice Certified</h3>
             <p className="text-gray-600">Year: 2021</p>
@@ -108,7 +108,7 @@ const About = () => {
       <div className="w-full h-full flex items-center  md:mt-[-100px] justify-center">
         <img
           src={profileImg}
-          alt="Dr. B M Suraj"
+          alt="Dr.praveen"
           className="w-full max-w-[400px] h-auto object-cover rounded-xl shadow-2xl"
         />
       </div>
@@ -177,7 +177,7 @@ const About = () => {
       </div>
 
       {/* Tabs */}
-      <div className="flex gap-4 mb-6 flex-wrap">
+      <div className="flex gap-4 blur-[3px] mb-6 flex-wrap">
         <button
           onClick={() => setActiveTab("default")}
           className={`px-4 py-2 rounded-full text-sm font-medium border transition-all duration-300 ${activeTab === "default"
