@@ -60,7 +60,7 @@ const About = () => {
       <div className="mb-10 relative">
         <div className={dotStyle}></div>
         <h2 className="text-2xl font-semibold mb-2">Medical License</h2>
-        <p className="text-gray-600 blur-[3px]leading-relaxed">
+        <p className="text-gray-600 blur-[3px] leading-relaxed">
           Medical License, Florida:ME88119 - 2003 - Present  </p>
         <p className="text-gray-600 blur-[3px] leading-relaxed">
           DEA:BK4938645 - 1995 - Present</p>
@@ -177,7 +177,7 @@ const About = () => {
       </div>
 
       {/* Tabs */}
-      <div className="flex gap-4 blur-[3px] mb-6 flex-wrap">
+      <div className="flex gap-4  mb-6 flex-wrap">
         <button
           onClick={() => setActiveTab("default")}
           className={`px-4 py-2 rounded-full text-sm font-medium border transition-all duration-300 ${activeTab === "default"
@@ -207,7 +207,7 @@ const About = () => {
           {defaultExperience.map((item, index) => (
             <div className="relative" key={index}>
               <div className={dotStyle}></div>
-              <p className="text-gray-700 leading-relaxed">{item}</p>
+              <p className="text-gray-700 blur-[3px] leading-relaxed">{item}</p>
             </div>
           ))}
         </div>
@@ -216,7 +216,7 @@ const About = () => {
           {additionalExperience[activeTab].map((item, index) => (
             <div className="relative" key={index}>
               <div className={dotStyle}></div>
-              <p className="text-gray-700 leading-relaxed">{item}</p>
+              <p className="text-gray-700 blur-[3px] leading-relaxed">{item}</p>
             </div>
           ))}
         </div>

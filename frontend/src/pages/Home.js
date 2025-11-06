@@ -39,7 +39,7 @@ const DoctorCard = () => {
             <p className="text-gray-500 text-sm blur-[3px] md:text-base">NEPHROLOGIST</p>
             <p className="text-gray-500 text-sm blur-[3px] md:text-base">MD</p>
             <p className="text-gray-500 text-sm blur-[3px] md:text-base">Medical License, Florida: ME88119 - 2003 - Present</p>
-            <p className="text-gray-500 text-sm blur-[3px]md:text-base">DEA: BK4938645 - 1995 - Present</p>
+            <p className="text-gray-500 text-sm blur-[3px] md:text-base">DEA: BK4938645 - 1995 - Present</p>
 
             {/* ✅ Link with Doctor Details */}
             <Link
