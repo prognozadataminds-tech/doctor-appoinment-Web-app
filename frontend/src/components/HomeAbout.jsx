@@ -1,17 +1,7 @@
 import about_img from '../assests/R.png'
-import { useNavigate } from 'react-router-dom';
 import { Link } from 'react-router-dom';
 
 const AboutSection = () => {
-
-  const navigate = useNavigate();
-
-  const handleLearnMore = () => {
-    navigate('/aboutme');
-  };
-
-
-
 
   return (
     <div className="relative bg-gradient-to-r from-[#00CC99] to-[#336699] py-16 px-6 md:px-20 text-white">

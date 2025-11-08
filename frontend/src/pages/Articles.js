@@ -15,12 +15,6 @@ const publications = [
   { id: 11, title: 'Anjay Rastogi, Glenn M Chertow, Ashté Collins, Ellie Kelepouris, Wayne Kotzker. Utilization of Potassium Binders for the Management of Hyperkalemia in Chronic Kidney Disease: A Position Statement by US Nephrologists. Advances in Kidney Disease and Health 2024-11-01', year: 2024 },
 ];
 
-const certifications = [
-  { id: 1, title: 'Good Clinical Practice Certified', year: 2021 },
-  { id: 2, title: 'IATA and Dangerous Goods Handling Certified', year: 2020 },
-  { id: 3, title: 'RAVE EDC Data Capture Tools', year: 2020 },
-];
-
 const Articles = () => {
   
     useEffect(() => {
