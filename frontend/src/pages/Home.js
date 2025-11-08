@@ -35,11 +35,11 @@ const DoctorCard = () => {
               alt="Doctor"
               className="w-48 h-48 md:w-60 md:h-60 rounded-full border-4 border-green-500"
             />
-            <h2 className="text-xl md:text-2xl blur-[3px] font-semibold mt-4">Dr. Wayne R. Kotzker</h2>
-            <p className="text-gray-500 text-sm blur-[3px] md:text-base">NEPHROLOGIST</p>
-            <p className="text-gray-500 text-sm blur-[3px] md:text-base">MD</p>
-            <p className="text-gray-500 text-sm blur-[3px] md:text-base">Medical License, Florida: ME88119 - 2003 - Present</p>
-            <p className="text-gray-500 text-sm blur-[3px] md:text-base">DEA: BK4938645 - 1995 - Present</p>
+            <h2 className="text-xl md:text-2xl  font-semibold mt-4">Dr. Wayne R. Kotzker</h2>
+            <p className="text-gray-500 text-sm  md:text-base">NEPHROLOGIST</p>
+            <p className="text-gray-500 text-sm  md:text-base">MD</p>
+            <p className="text-gray-500 text-sm  md:text-base">Medical License, Florida: ME88119 - 2003 - Present</p>
+            <p className="text-gray-500 text-sm md:text-base">DEA: BK4938645 - 1995 - Present</p>
 
             {/* ✅ Link with Doctor Details */}
             <Link
