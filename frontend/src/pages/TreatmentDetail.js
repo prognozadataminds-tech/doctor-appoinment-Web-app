@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
-import { useParams, Link } from "react-router-dom";
-import { FaHeartbeat } from "react-icons/fa";
+import { useParams, Link, useNavigate } from "react-router-dom";
+import { FaHeartbeat, FaCapsules, FaStethoscope } from "react-icons/fa";
 import Thyroid from "../assests/thyroid.jpg"
 import Heart from "../assests/heart.jpg";
 import BP from "../assests/bp.jpg";
@@ -193,6 +193,8 @@ const TreatmentDetail = () => {
   }, []);
 
   const { id } = useParams();
+  const navigate = useNavigate();
+
   const treatment = treatments.find((t) => t.id === parseInt(id));
 
   if (!treatment) {

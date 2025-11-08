@@ -37,9 +37,9 @@ const DoctorCard = () => {
             />
             <h2 className="text-xl md:text-2xl  font-semibold mt-4">Dr. Wayne R. Kotzker</h2>
             <p className="text-gray-500 text-sm  md:text-base">NEPHROLOGIST</p>
-            <p className="text-gray-500 text-sm  md:text-base">MD</p>
-            <p className="text-gray-500 text-sm  md:text-base">Medical License, Florida: ME88119 - 2003 - Present</p>
-            <p className="text-gray-500 text-sm md:text-base">DEA: BK4938645 - 1995 - Present</p>
+            <p className="text-gray-500 text-sm blur-[3px] md:text-base">MD</p>
+            <p className="text-gray-500 text-sm blur-[3px] md:text-base">Medical License, Florida: ME88119 - 2003 - Present</p>
+            <p className="text-gray-500 text-sm blur-[3px] md:text-base">DEA: BK4938645 - 1995 - Present</p>
 
             {/* ✅ Link with Doctor Details */}
             <Link
