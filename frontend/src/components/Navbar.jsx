@@ -14,7 +14,7 @@ const Navbar = () => {
             alt="Logo"
             className="w-12 h-12 object-contain" // Adjust size as needed
           /> */}
-          <span className="text-[25px] font-bold text-gray-900">Dr. Wayne R. Kotzker</span>
+          <span className="text-[25px] font-bold text-gray-900">Dr.Rohit Patil Shah</span>
         </Link>
 
         {/* Logo Only (Mobile View) */}
@@ -24,7 +24,7 @@ const Navbar = () => {
             alt="Logo"
             className=" object-contain" // Smaller size for mobile
           /> */}
-           <span className="text-[25px] font-bold text-gray-900">Dr. Wayne R. Kotzker</span>
+           <span className="text-[25px] font-bold text-gray-900">Dr.Rohit Patil Shah</span>
         </Link>
 
         {/* Mobile Menu Button (Hamburger) */}

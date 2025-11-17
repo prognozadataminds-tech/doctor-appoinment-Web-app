@@ -85,7 +85,7 @@ const AppointmentPage = () => {
           <img src={docter} alt="Dr. Wayne" className="w-24 h-24 rounded-full border-4 border-green-500" />
           <div>
             <h2 className="text-xl font-bold text-gray-800 flex items-center gap-2">
-              Dr. Wayne R. Kotzker <span className="text-green-600">✔</span>
+             Dr.Rohit Patil Shah <span className="text-green-600">✔</span>
             </h2>
             <p className="text-sm text-gray-600">NEPHROLOGIST</p>
             <button className="mt-1 text-blue-600 text-sm underline">VIEW PROFILE</button>
